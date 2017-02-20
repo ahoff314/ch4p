@@ -27,8 +27,10 @@ int main() {
         boxesNeeded = totalCookies / 24;
         leftoverCookies = totalCookies % 24;
     }
-    else
+    else {
+        boxesNeeded = 0;
         leftoverCookies = totalCookies;
+    }
 
 
     //Determine containers needed, calculate leftover boxes
@@ -36,9 +38,10 @@ int main() {
         containersNeeded = boxesNeeded / 75;
         leftoverBoxes = boxesNeeded % 75;
     }
-    else
+    else {
+        containersNeeded = 0;
         leftoverBoxes = boxesNeeded;
-
+    }
 
     //Output number boxes needed, leftover cookies, number of containers needed, leftover boxes
     cout << "The number of cookie boxes needed to hold the cookies: " << boxesNeeded << endl;
