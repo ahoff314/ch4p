@@ -4,7 +4,6 @@
  * Chapter 4 Program
  ****************************/
 
-
 #include <iostream>
 
 using namespace std;
@@ -19,7 +18,7 @@ int main() {
 
     cout << "Please enter the total number of cookies: " << endl;
 
-    //Receive totalCookes input
+    //Receive totalCookies input
     cin >> totalCookies;
 
     //Determine boxes needed, calculate leftover cookies
@@ -48,7 +47,6 @@ int main() {
     cout << "Leftover cookies: " << leftoverCookies << endl;
     cout << "The number of containers needed to store the cookie boxes: " << containersNeeded << endl;
     cout << "Leftover boxes: " << leftoverBoxes << endl;
-
 
     return 0;
 }
