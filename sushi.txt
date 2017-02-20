@@ -1,0 +1,20 @@
+Receive total number of cookies as an input
+
+Divide the total number of cookies to determine number of boxes needed using the following formula:
+
+			boxesNeeded = totalCookies / 24
+
+Determine the number of leftover cookies using the following formula:
+
+leftoverCookies = totalCookies % 24
+
+Determine the number of containers needed using the following formula:
+
+		containersNeeded = boxesNeeded / 75
+
+Determine the number of leftover boxes using the following formula:
+
+			leftoverBoxes = boxesNeeded % 75
+
+Output statement indicating the number of boxes needed, leftover cookies,
+number of containers needed, and leftover boxes.
